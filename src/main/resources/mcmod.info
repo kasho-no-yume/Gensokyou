@@ -1,0 +1,16 @@
+[
+{
+  "modid": "gensokyou",
+  "name": "Gensokyou-lotus land story",
+  "description": "将东方元素添加进我的世界",
+  "version": "1.0.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Deep♂ Dark♂ Fantasy"],
+  "credits": "感谢一切提供了mod开发教程的大佬,和deep dark fantasy,嘻哈,咸鱼,钢筋大佬",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon":
+    {
+      "item": "gensokyou:lightreflect"
+    },
+    "title": "幻想乡故事",
+    "background": "minecraft:gold_block",
+    "frame": "goal",
+    "description": "幻想乡故事的起源",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria":
+  {
+    "nothing":
+    {
+      "trigger": "minecraft:inventory_changed",
+      "conditions":
+      {
+        "items":
+        [
+          {
+            "item": "gensokyou:ppoint",
+            "count":
+            {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}

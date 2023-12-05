@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " p ",
+    " s ",
+    "   "
+  ],
+  "key":
+  {
+    "s":
+    {
+      "item": "gensokyou:bpoint"
+    },
+    "p":
+    {
+      "item": "minecraft:double_plant",
+      "data":0
+    }
+  },
+  "result":
+  {
+    "item": "gensokyou:lightreflect",
+    "count": 1
+  }
+}

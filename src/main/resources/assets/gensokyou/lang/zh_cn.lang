@@ -1,0 +1,17 @@
+item.ppoint.name=p点
+item.bpoint.name=b点
+item.lightreflect.name=光符-阳光反射
+itemGroup.gensokyou=幻想乡故事
+item.musoufuuin.name=灵符-梦想封印
+item.theworld.name=幻世-世界
+death.attack.danmaku=%s满身疮痍
+entity.gensokyou.yinyangorb.name=阴阳玉
+item.brokenspellcardstar.name=符卡星碎片
+item.spellcardstar.name=符卡星
+entity.FlandreScarlet.name=芙兰朵露 斯卡雷特
+entity.fakeflandrescarlet=四重幻象分身
+mupower=目
+advancements.gensokyou.intogenso.title=遁入幻想
+advancements.gensokyou.intogenso.description=成功进入结界内侧——幻想乡
+advancements.gensokyou.defeatflandre.title=U.N.Owen 就是她吗
+advancements.gensokyou.defeatflandre.description=成功击败芙兰朵露

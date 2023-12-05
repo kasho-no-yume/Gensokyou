@@ -1,0 +1,33 @@
+{
+  "display":
+  {
+    "icon":
+    {
+      "item": "minecraft:golden_apple"
+    },
+    "title":
+    {
+      "translate": "advancements.gensokyou.defeatflandre.title"
+    },
+    "description":
+    {
+      "translate": "advancements.gensokyou.defeatflandre.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "gensokyou:intogenso",
+  "criteria":
+  {
+    "defeatflandre":
+    {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions":
+      {
+        "entity":
+        {
+          "nbt": "{name:\"flandre\"}"
+        }
+      }
+    }
+  }
+}

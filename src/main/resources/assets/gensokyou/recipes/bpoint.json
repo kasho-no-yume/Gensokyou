@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ppp",
+    "ppp",
+    "ppp"
+  ],
+  "key":
+  {
+    "p":
+    {
+      "item": "gensokyou:ppoint"
+    }
+  },
+  "result":
+  {
+    "item": "gensokyou:bpoint",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ppp",
+    "ppp",
+    "ppp"
+  ],
+  "key":
+  {
+    "p":
+    {
+      "item": "gensokyou:brokenspellcardstar"
+    }
+  },
+  "result":
+  {
+    "item": "gensokyou:spellcardstar",
+    "count": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "display":
+  {
+    "icon":
+    {
+      "item": "minecraft:golden_apple"
+    },
+    "title":
+    {
+      "translate": "advancements.gensokyou.intogenso.title"
+    },
+    "description":
+    {
+      "translate": "advancements.gensokyou.intogenso.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "gensokyou:gensokyouroot",
+  "criteria":
+  {
+    "intogensokyou":
+    {
+      "trigger": "minecraft:location",
+      "conditions":
+      {
+        "dimension": "Gensokyou"
+      }
+    }
+  },
+  "rewards":
+  {
+    "function": "gensokyou:recorder/giveKamiNoGensokyou"
+  }
+}
