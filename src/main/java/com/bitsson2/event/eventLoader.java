@@ -42,7 +42,7 @@ public class eventLoader
     private static double range=4;
     private static boolean isWorldStop=false;
 
-    //启动梦想封印的方法
+    //the function start musou fuuin
 
     public static void start_musoufuuin(double x,double y,double z,int time,EntityPlayer playerIn,World worldIn)
     {
@@ -77,7 +77,7 @@ public class eventLoader
     @SubscribeEvent
     public void musouFuuinEvent(TickEvent.PlayerTickEvent pevent)
     {
-        //梦想封印的判断
+        //musou fuuin function implement
         if(!data_musoufuuin.isEmpty()&&pevent.player.isServerWorld())
         {
             Iterator<timeData> iterator=data_musoufuuin.iterator();
@@ -148,14 +148,14 @@ public class eventLoader
         //目力伤害
         if (event.getSource().damageType.equals("danmaku"))
         {
-            //System.out.println("受到了弹幕伤害");
-            PotionEffect effect = event.getEntityLiving().getActivePotionEffect(PotionLoader.muPower);
+            //System.out.println("being attacked by danmaku");
+            PotionEffect effect = e.getActivePotionEffect(PotionLoader.muPower);
             if (effect != null)
             {
-                //System.out.println("在有药水的情况下受到了弹幕伤害");
+                //System.out.println("being attacked by danmaku with potion effect");
                 event.setAmount(event.getAmount()*(3+effect.getAmplifier())/2);
             }
-            effect=event.getEntityLiving().getActivePotionEffect(PotionLoader.danmakuProtect);
+            effect=e.getActivePotionEffect(PotionLoader.danmakuProtect);
             if(effect !=null)
             {
                 if(effect.getAmplifier()<10)
@@ -171,7 +171,7 @@ public class eventLoader
         }
     }
 
-    /*失败的幻世世界
+    /*failed the world
 
     @SubscribeEvent
     public void debugFunc(LivingAttackEvent event)

@@ -9,6 +9,7 @@ public class bpoint extends Item
     {
         super();
         this.setUnlocalizedName("bpoint");
+        this.setRegistryName("gensokyou:bpoint");
         this.setCreativeTab(creativeTabLoader.gCreativeTab);
     }
 }

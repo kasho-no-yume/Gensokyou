@@ -9,6 +9,7 @@ public class brokenSpellCardStar extends Item
     {
         super();
         this.setUnlocalizedName("brokenspellcardstar");
+        this.setRegistryName("gensokyou:brokenspellcardstar");
         this.setCreativeTab(creativeTabLoader.gCreativeTab);
     }
 }

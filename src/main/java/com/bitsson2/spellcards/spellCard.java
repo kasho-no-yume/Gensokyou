@@ -8,6 +8,9 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
+/***
+ * sealed from base item,auto register and default rigth click shrinking
+ */
 public class spellCard extends Item
 {
     public spellCard(String name)

@@ -9,6 +9,7 @@ public class ppoint extends Item
     {
         super();
         this.setUnlocalizedName("ppoint");
+        this.setRegistryName("gensokyou:ppoint");
         this.setCreativeTab(creativeTabLoader.gCreativeTab);
     }
 }

@@ -13,10 +13,6 @@ public class pointloader
 
     public static void regPointItem()
     {
-        p_point.setRegistryName("gensokyou:ppoint");
-        b_point.setRegistryName("gensokyou:bpoint");
-        brokenstar.setRegistryName("gensokyou:brokenspellcardstar");
-        star.setRegistryName("gensokyou:spellcardstar");
         ForgeRegistries.ITEMS.register(p_point);
         ForgeRegistries.ITEMS.register(b_point);
         ForgeRegistries.ITEMS.register(brokenstar);

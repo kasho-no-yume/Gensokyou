@@ -56,17 +56,6 @@ public class ThrowableYinYangOrb extends EntityThrowable
     }
 
     @Override
-    public boolean isInWater()
-    {
-        return false;
-    }
-    @Override
-    public boolean isInLava()
-    {
-        return false;
-    }
-
-    @Override
     protected float getGravityVelocity()
     {
         return 0f;

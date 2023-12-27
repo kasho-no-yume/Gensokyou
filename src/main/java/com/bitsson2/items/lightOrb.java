@@ -14,7 +14,8 @@ public class lightOrb extends Item
 {
     public lightOrb()
     {
-        this.setRegistryName("lightOrb");
+        this.setRegistryName("gensokyou:lightorb");
+        this.setUnlocalizedName("lightOrb");
     }
 
     @Override

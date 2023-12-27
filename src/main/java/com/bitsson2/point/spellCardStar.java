@@ -9,6 +9,7 @@ public class spellCardStar extends Item
     {
         super();
         this.setUnlocalizedName("spellcardstar");
+        this.setRegistryName("gensokyou:spellcardstar");
         this.setCreativeTab(creativeTabLoader.gCreativeTab);
     }
 }
